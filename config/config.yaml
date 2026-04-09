@@ -1,0 +1,25 @@
+# Healthcare Integration Hub Configuration
+
+app:
+  name: "Healthcare Integration Hub"
+  version: "2.0.0"
+  debug: false
+
+features:
+  - HL7/FHIR
+  - 100+ providers
+  - HIPAA compliant
+
+tech_stack:
+  - HL7
+  - FHIR
+  - PostgreSQL
+
+server:
+  host: "0.0.0.0"
+  port: 8000
+  workers: 4
+
+logging:
+  level: INFO
+  format: "%(asctime)s | %(levelname)s | %(message)s"
